@@ -1,0 +1,32 @@
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;  
+    background-color:#3A28A7;
+}
+
+header img {
+    margin-right:0px;  
+    height: 110px;
+}
+
+header h1 {
+    color:aliceblue;
+    margin: 20px;;
+    font-size: 3em;
+    background-color:#3A28A7;
+}
+
+body {
+    background-color:#5e44f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.search{
+    float:right;
+}
+
