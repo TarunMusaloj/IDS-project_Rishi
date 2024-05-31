@@ -33,7 +33,7 @@ body {
     margin-top:10px;
     margin-right: 100px;
     height:385px;
-    width:260px;
+    width:310px;
     border:1px solid  black;
     border-radius: 20px;
     background-color:  #8573ed;
@@ -48,9 +48,17 @@ body {
     border-color: #000000;
     font-size: 20px;
 }
+#ok-btn{
+    margin-left: 5px;
+    height:30px;
+    border-radius:10px;
+    margin-top: 10px;
+    border-color: #000000;
+    font-size: 20px;
+}
 #dropdown{
     margin-left: 5px;
-    width:250px;
+    width:300px;
     height:30px;
     border-radius:10px;
     margin-top: 5px;
