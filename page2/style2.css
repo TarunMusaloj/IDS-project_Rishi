@@ -44,3 +44,70 @@ footer{
     height:90px;
 }
 
+
+#metrics{
+    
+    
+
+}
+
+#category_name_div{
+    text-align: center;  /* Center the text */
+    color: white;        /* Set text color to white */
+    font-family: 'Lato', sans-serif;  /* Use Lato font */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;       /* Add padding around the text */
+    margin: 10px 0;      /* Add margin to separate the divs */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    width: 30%;          /* Set a width for the divs */
+    
+}
+
+#difficulty_level_div{
+   
+}
+
+
+
+#category_name_div h3, #difficulty_level h4 {
+    margin: 0;           /* Remove default margins */
+    font-weight: 400;    /* Normal font weight for readability */
+}
+
+#category_name_div h3 {
+    font-size: 1em;    /* Larger font size for the category name */
+}
+
+#difficulty_level h4 {
+    font-size: 1em;    /* Slightly smaller font size for the difficulty level */
+}
+
+button {
+    font-family: 'Lato', sans-serif;  /* Use Lato font */
+    font-size: 1.1em;    /* Slightly larger font size for buttons */
+    color: white;        /* White text color */
+    background-color: #260e56;  /* Blue background color */
+    border: none;        /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px;  /* Padding for the button */
+    margin: 10px 0;      /* Margin to separate buttons */
+    cursor: pointer;     /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+#page2_easy{
+    background-color: #3e660b;
+}
+#page2_med{
+    background-color: #23b3fa;
+}
+#page2_hard{
+    background-color: #66230b;
+
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
