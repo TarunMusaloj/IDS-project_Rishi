@@ -2,6 +2,8 @@
     margin: 0;
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -42,4 +44,63 @@ footer{
     margin-top: 60px;
     background-color: #3A28A7;
     height:90px;
+}
+
+#metrics{
+    display: flex;
+    
+
+}
+
+#category_name_div{
+    text-align: center;  /* Center the text */
+    color: white;        /* Set text color to white */
+    font-family: 'Lato', sans-serif;  /* Use Lato font */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;       /* Add padding around the text */
+    margin: 10px 0;      /* Add margin to separate the divs */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    width: 30%;          /* Set a width for the divs */
+    
+}
+
+#difficulty_level_div{
+    text-align: center;  /* Center the text */
+    color: white;        /* Set text color to white */
+    font-family: 'Lato', sans-serif;  /* Use Lato font */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;       /* Add padding around the text */
+    margin: 10px 10px;      /* Add margin to separate the divs */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    width: 30%;          /* Set a width for the divs */
+    
+}
+
+button {
+    font-family: 'Lato', sans-serif;  /* Use Lato font */
+    font-size: 1.1em;    /* Slightly larger font size for buttons */
+    color: white;        /* White text color */
+    background-color: #0e560f;  /* Blue background color */
+    border: none;        /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px;  /* Padding for the button */
+    margin: 10px 0;      /* Margin to separate buttons */
+    cursor: pointer;     /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+#category_name_div h3, #difficulty_level h4 {
+    margin: 0;           /* Remove default margins */
+    font-weight: 400;    /* Normal font weight for readability */
+}
+
+#category_name_div h3 {
+    font-size: 1.2em;    /* Larger font size for the category name */
+}
+
+#difficulty_level h4 {
+    font-size: 1.2em;    /* Slightly smaller font size for the difficulty level */
 }
